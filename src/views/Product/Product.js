@@ -17,7 +17,7 @@
 //     </>
 //     )
 
-import Navbar from "./../Product/Product"
+import Navbar from "../../components/Navbar/Navbar"
 
 const Product= () =>
     {
