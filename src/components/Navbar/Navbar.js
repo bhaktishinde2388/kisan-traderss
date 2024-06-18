@@ -4,7 +4,13 @@ import DarkTheme from "./‭icons/night-mode (1).png"
 import LightTheme from "./‭icons/light1.png"
 
 import {Limk, Link} from "react-router-dom";
-function Navbar() {
+function Navbar({theme}) {
+
+  const THEME_ICON =
+  {
+    "dark":DarkTheme,
+    "light":LightTheme
+  }
   return (
     <div className="navbar-container">
       <span className=" logo"> KISSAN TRADERS</span> 
@@ -13,8 +19,10 @@ function Navbar() {
         <Link to="/Contact" className="navbar-link">Contact us</Link>
         <Link to="/Product" className="navbar-link">Products</Link>
        
-        <img className="theme-switcher" src={DarkTheme}/>
-        <img className="theme-switcher"src={LightTheme}/>
+        <img className="theme-switcher dark" src={DarkTheme}/>
+        <img className="theme-switcher light"src={LightTheme}/>
+       
+       
        
         <div  className="seachbar-container">
         <input type="text" placeholder="Search" className="textbox"></input>
