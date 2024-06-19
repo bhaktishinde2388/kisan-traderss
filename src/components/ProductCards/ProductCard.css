@@ -27,6 +27,7 @@
     margin-bottom: 20px;
     height: 400px;
     justify-content: center;
+    margin-top: 20px;
 }
 }
 .cards-container:hover
@@ -62,9 +63,28 @@ p{
     font-size: 20px;
     text-align: justify; 
 }
+
+ @media screen and (max-width:768px)
+    {
+      
+    p
+{
+    
+    font-size: 14px;
+}
+    }
 h3{
     margin-top: 10px;
     font-size: 22px;
+}
+@media screen and (max-width:768px)
+{ 
+p
+h3
+{
+
+font-size: 18px;
+}
 }
 .star-img
 {
@@ -78,6 +98,15 @@ h4{
     padding: 0;
     left: 70px;
     bottom: 20px;
+}
+@media screen and (max-width:768px)
+{ 
+p
+h4
+{
+
+font-size: 15px;
+}
 }
 
 .price
