@@ -1,6 +1,7 @@
 import ContactImg from "./contactImg/contactus2.jpg"
 import Navbar from "./../../components/Navbar/Navbar"
 import "./../Contact/Contact.css"
+import Footer from "../../components/Footer/Footer"
 const Contact= () =>
     {
         return(
@@ -27,6 +28,7 @@ const Contact= () =>
             <input className="text-box" type="number" placeholder="Enter mobile number"/>
             </div>
             </div>
+            <Footer/>
             </>
         )
     }

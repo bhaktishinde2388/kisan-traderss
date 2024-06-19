@@ -1,5 +1,6 @@
 import Navbar from "../../components/Navbar/Navbar"
 import "./../About/About.css"
+import Footer from "../../components/Footer/Footer"
 
 const About = ({abotText}) =>
     {
@@ -20,7 +21,8 @@ const About = ({abotText}) =>
         <br></br>Wholesaler in Sangamner, Maharashtra
         Shop No 9, Marketyard, Ganesh Nagar, Sangamner, Maharashtra 422605
         Market Yard, Sangamner, Sangamner - 422605</p>
-
+        <img className="store-img" src="https://lh3.googleusercontent.com/p/AF1QipO9eHQUZRejhDK_Yu5Q-Kd30ajeobL09QutEm25=s680-w680-h510"/>
+        <Footer/>
             </>
         )
     }

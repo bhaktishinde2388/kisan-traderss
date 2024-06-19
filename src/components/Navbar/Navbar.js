@@ -13,7 +13,7 @@ function Navbar({theme}) {
   }
   return (
     <div className="navbar-container">
-      <span className=" logo"> KISSAN TRADERS</span> 
+      <span className=" logo"> KISAN TRADERS</span> 
         <Link to="/" className="navbar-link">Home</Link>
         <Link to="/About" className="navbar-link">About</Link>
         <Link to="/Contact" className="navbar-link">Contact us</Link>

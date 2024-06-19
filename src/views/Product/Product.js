@@ -1,24 +1,7 @@
-// import ProductCards from "./../components/ProductCards/ProductCards"
-
-// import{
-//     createBrowserRouter,
-//     RouterProvider
-// } from "react-router-dom"
-
-// const router2 = createBrowserRouter([
-//     {
-//         path : "/Product",
-//         element:<Product/>
-//     }
-// ])
-// root.render(
-//     <>
-//     <RouterProvider router={router2}/>
-//     </>
-//     )
-
 import Navbar from "../../components/Navbar/Navbar"
 import ProductCards from "../../components/ProductCards/ProductCards"
+import Footer from "../../components/Footer/Footer"
+
 const Product= () =>
     {
         return(
@@ -58,27 +41,27 @@ const Product= () =>
             cardInfo/>
  </div>
  <div className="cards-main-container">
- <ProductCards name="WOLF GARTEN Digging Shovel for Garden Works (AS-D) Spade"
-            posterUrl="https://www.kishantools.com/uploaded_files/imgae_gallery/62fe3e607ac5b1660829280.jpg"      
+ <ProductCards name="BHARAT COW DUNG FAWADA PLASTIC"
+            posterUrl="https://cdn.shopify.com/s/files/1/0722/2059/files/1_AnubhavSingh7.png?v=1695194151&width=256"      
+            rating="good"
+            mainPrice="₹560" 
+            oldPrice="₹815 "
+            percentageOff="14% off"
+            cardInfo/>
+
+<ProductCards name="WOLF GARTEN BYPASS SECATEURS ALU-PROFESSIONAL (RR 5000) 25MM CUT"
+            posterUrl="https://cdn.shopify.com/s/files/1/0722/2059/products/1_2e18ae5b-c111-4fd8-a9d0-1cd95eae0007.webp?v=1681820636&width=256"      
             rating="good"
             mainPrice="₹3,260" 
             oldPrice="₹3,815 "
             percentageOff="14% off"
             cardInfo/>
 
-<ProductCards name="WOLF GARTEN Digging Shovel for Garden Works (AS-D) Spade"
-            posterUrl="https://www.kishantools.com/uploaded_files/imgae_gallery/62fe3e607ac5b1660829280.jpg"      
+<ProductCards name="SIDDHI RAIN PIPE 100 METER WITH COCK, RUBBER GROMMET"
+            posterUrl="https://cdn.shopify.com/s/files/1/0722/2059/files/2_MuskanChauhan2.png?v=1694243402&width=256"      
             rating="good"
-            mainPrice="₹3,260" 
-            oldPrice="₹3,815 "
-            percentageOff="14% off"
-            cardInfo/>
-
-<ProductCards name="WOLF GARTEN Digging Shovel for Garden Works (AS-D) Spade"
-            posterUrl="https://www.kishantools.com/uploaded_files/imgae_gallery/62fe3e607ac5b1660829280.jpg"      
-            rating="good"
-            mainPrice="₹3,260" 
-            oldPrice="₹3,815 "
+            mainPrice="₹360" 
+            oldPrice="₹815 "
             percentageOff="14% off"
             cardInfo/>
 
@@ -90,6 +73,7 @@ const Product= () =>
             percentageOff="14% off"
             cardInfo/>
             </div>
+            <Footer/>
             </>
         )
     }

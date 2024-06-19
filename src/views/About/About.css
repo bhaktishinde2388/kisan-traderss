@@ -23,3 +23,14 @@
  border-radius: 50%;
  
 }
+.store-img
+{
+    height: 600px;
+    width: 1000px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+   
+}

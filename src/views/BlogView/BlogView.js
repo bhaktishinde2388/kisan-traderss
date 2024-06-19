@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom"
 import "./BlogView.css"
 import {blog} from "../../data";
+import Footer from "../../components/Footer/Footer"
+import Navbar from "../../components/Navbar/Navbar";
 function BlogView ()
     {
         const {id} = useParams()
@@ -19,6 +21,8 @@ function BlogView ()
             console.log(select)
 
         return(
+            <>
+            <Navbar/>
             <div className="blogs-container">
             <h1>{select.title} </h1>
             <p className="blog-date-author">
@@ -27,8 +31,12 @@ function BlogView ()
             <p >
                 {select.content}
             </p>
+          
             </div>
+            <Footer/>
+            </>
+           
         )
     }
-
+  
     export default BlogView

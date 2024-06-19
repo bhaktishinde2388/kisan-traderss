@@ -2,6 +2,7 @@ import {blog} from "../../data";
 import Navbar from "../../components/Navbar/Navbar"
 import BlogCards from "../../components/BlogCards/BlogCards"
 import BlogView from "./../BlogView/BlogView"
+import Footer from "../../components/Footer/Footer"
 import "./Blog.css"
 const Blog =()=>
     {
@@ -38,7 +39,11 @@ const Blog =()=>
             }
             </div>
 
+
+
+            <Footer/>
             </>
         )
     }
+   
  export default Blog

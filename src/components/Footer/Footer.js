@@ -12,7 +12,7 @@ const Footer = ({logo,companyInfo}) => {
                     <img className='logo' src={Logo}/>
                 </div>
                 <div className="footer-section">
-                    <h4>Quick Links</h4>
+                    
                     <ul>
                         <li><a href="/about">About</a></li>
                         <li><a href="/Contact">Contact</a></li>
@@ -21,7 +21,7 @@ const Footer = ({logo,companyInfo}) => {
                     </ul>
                 </div>
                 <div className="footer-section">
-                    <h4 className=' owner-info'>Contact Us</h4>
+                   
                     <p className=' owner-info'>Email: kisantraders@gmail.com</p>
                     <Link href="9822179828" className=' owner-info'><p>Contact:--Mr.Nilesh Rahane: +91 9822179828</p></Link>
                     <p className='owner-info'>Shop No 9, Marketyard, Ganesh Nagar, Sangamner, Maharashtra 422605</p>

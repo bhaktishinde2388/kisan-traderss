@@ -3,6 +3,7 @@ import "./../ProductCards/ProductCard.css"
 import CrateImg from "./product-card-img/crate3.jpg"
 import "./../Buttons/Button.css"
 import About from "./../../views/About/About"
+import { Link } from "react-router-dom"
 const ProductCards =({ name,posterUrl,rating,cardInfo,mainPrice,oldPrice,percentageOff})=>
     {
         return(
@@ -15,7 +16,7 @@ const ProductCards =({ name,posterUrl,rating,cardInfo,mainPrice,oldPrice,percent
              <span className="price">{mainPrice}</span><br/><br></br>
              <span className="old-price"><del>{oldPrice}</del></span>
              <span className="percentage-off">{percentageOff}</span>
-             <a href="/about"></a><Button text="view more"/><a/>
+             <Link to="/product"> <Button text="view more"/></Link>
              <h4>Rating:{rating}{rating=="good" ? "⭐⭐" : "⭐⭐⭐⭐"}
              
              </h4>
