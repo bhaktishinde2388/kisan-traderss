@@ -2,19 +2,45 @@ import ProductCards from "../../components/ProductCards/ProductCards"
 import Navbar from "../../components/Navbar/Navbar"
 import Buttons from "../../components/Buttons/Button"
 import "./../Home/Home.css"
-import IndexImg from "./index-img.jpg"
-
-
+import IndexImg from "./../Home/image/index-img.jpg"
+import {SiteDetails, features} from "./../../data"
+import Footer from "../../components/Footer/Footer"
+import FeatureCards from "../../components/FeatureCards/FeatureCards"
 
 const Home= () =>
     {
         return(
             <>
             <Navbar/>
+
             <img className="index-main-img" src={IndexImg}/><br></br><br></br>
+
+            <div>
+            <h1 className="config-head">{SiteDetails.title}</h1>
+
+            <div className="features">
+                {
+                    features.map((features,i) =>
+                    {
+                        const {title,img} = features
+
+                        return(
+                            <FeatureCards key={i} title={title} img={img} />
+                            // <div>
+                            //     <img src={img}  alt={title}/>
+                            //     <p>{title}</p>
+                            // </div>
+                        )
+                    })
+                }
+
+            </div>
+
+           
+            
             <h1 className="sample-product">🤍Sample Product🤍</h1>
             <div className="cards-main-container">
-<ProductCards  name="red Portable Plastic Crate"
+<ProductCards  name="red Portable Plastic Crate | big scale | store upto 40kg"
             posterUrl="https://assets-global.website-files.com/64957750b431e096dc85ba1e/6496eeb172fa6114618de3e5_602e95666dd9ee8da90881f1_Crates-1024x576.jpeg"      
             rating="3.4..."
             mainPrice="₹560" 
@@ -46,8 +72,28 @@ const Home= () =>
             percentageOff="14% off"
             cardInfo/>
             </div>
+
+           
+            {/* <div className="footer">
+                <h1>{footer.companyInfo}</h1>
+                {
+                    footer.map2((footer,i2) =>
+                        {
+                            const {logo,companyInfo} = footer
+
+                            return(
+                                <Footer key={i2} logo={logo} companyInfo={companyInfo} />
+                           
+                            )
+                        })
+                }
+
+            </div> */}
+            </div>
+           
+           <Footer/>
             </>
-        )
+        );
     }
    
 

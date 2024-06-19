@@ -18,6 +18,7 @@ function Navbar({theme}) {
         <Link to="/About" className="navbar-link">About</Link>
         <Link to="/Contact" className="navbar-link">Contact us</Link>
         <Link to="/Product" className="navbar-link">Products</Link>
+        <Link to="/Blog" className="navbar-link">Blog</Link>
        
         <img className="theme-switcher dark" src={DarkTheme}/>
         <img className="theme-switcher light"src={LightTheme}/>

@@ -1,0 +1,31 @@
+.feature-cards
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    width: 18%;
+    align-items: center;
+    border-radius: 20px;
+    height:170px;
+    box-shadow: 0 0 5px 2px #37f910be;
+   background-color: rgb(255, 255, 255);
+}
+
+.feature-cards:hover {
+    transform: scale(1.060);
+    box-shadow: 0 0 5px 2px #f96910be;
+    overflow: hidden;
+    transition: 1s;
+  }
+.feature-img
+{
+    width: 50%;
+    height: 100px;
+}
+.feature-title
+{
+    justify-content:right;
+    margin-top: 10px;
+    font-size: 18px;
+}

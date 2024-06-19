@@ -1,24 +1,24 @@
 .navbar-container{
-    background-color: green;
-    width: 100%;
+    background-image: radial-gradient( circle 848px at 10% 20%,  rgba(234, 240, 233, 0.9) 0%, rgb(181, 232, 123) 90% );
+        width: 100%;
     padding: 10px;
-     
+   
 }
 .logo
 {
     box-shadow: 0 0 5px 1px orange;
-  color: aliceblue;
+    color:green;
     font-size: 25px;
-   font-weight: bolder;
- 
-}
+    font-weight: bolder;
+ }
 .navbar-link
 {
-    color: aliceblue;
-    font-size: 20px;
+    color: green;
+    font-size: 22px;
     justify-content: center;
-    padding: 40px ;
+    padding: 30px ;
     text-decoration: none;
+    font-weight:600;
     
 }
 

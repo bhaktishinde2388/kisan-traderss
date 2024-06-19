@@ -14,3 +14,16 @@
     width: 100%;
     padding-top: 20px;
 }
+
+
+
+.config-head
+{
+    text-align: center;
+    font-size: 30px;
+}
+.features
+{
+    display: flex;
+    justify-content: center;
+}
