@@ -6,11 +6,11 @@ import LightTheme from "./‭icons/light1.png"
 import {Limk, Link} from "react-router-dom";
 function Navbar({theme}) {
 
-  const THEME_ICON =
-  {
-    "dark":DarkTheme,
-    "light":LightTheme
-  }
+  // const THEME_ICON =
+  // {
+  //   "dark":DarkTheme,
+  //   "light":LightTheme
+  // }
   return (
     <div className="navbar-container">
       <span className=" logo"> KISAN TRADERS</span> 
@@ -20,8 +20,8 @@ function Navbar({theme}) {
         <Link to="/Product" className="navbar-link">Products</Link>
         <Link to="/Blog" className="navbar-link">Blog</Link>
        
-        <img className="theme-switcher dark" src={DarkTheme}/>
-        <img className="theme-switcher light"src={LightTheme}/>
+        {/* <img className="theme-switcher dark" src={DarkTheme}/>
+        <img className="theme-switcher light"src={LightTheme}/> */}
        
        
        

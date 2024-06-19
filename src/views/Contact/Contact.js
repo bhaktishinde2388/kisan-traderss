@@ -2,6 +2,8 @@ import ContactImg from "./contactImg/contactus2.jpg"
 import Navbar from "./../../components/Navbar/Navbar"
 import "./../Contact/Contact.css"
 import Footer from "../../components/Footer/Footer"
+import Button from "../../components/Buttons/Button"
+import { Link } from "react-router-dom"
 const Contact= () =>
     {
         return(
@@ -25,7 +27,9 @@ const Contact= () =>
             <h1>Contact Us</h1>
             <input className="text-box" type="text" placeholder="Enter Full Name"/><br></br><br></br>
             <input className="text-box" type="text" placeholder="Enter city"/><br></br><br></br>
-            <input className="text-box" type="number" placeholder="Enter mobile number"/>
+            <input className="text-box" type="number" placeholder="Enter mobile number"/><br></br><br></br>
+            <input className="text-box" type="text" placeholder="product name"/>
+            <Link className="c-btn" to="/"> <Button  text="Order Now"/></Link>
             </div>
             </div>
             <Footer/>
