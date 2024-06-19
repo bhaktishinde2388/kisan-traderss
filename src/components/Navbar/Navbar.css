@@ -5,6 +5,17 @@
     padding-left: 50px;
    
 }
+@media screen and (max-width:768px)
+  {
+    .navbar-container
+  {
+        height: 100%;
+        width: 100%;
+        padding: 5px;
+        padding-left: 10px;
+
+  }
+}
 .logo
 {
     box-shadow: 0 0 5px 1px orange;
@@ -12,6 +23,14 @@
     font-size: 25px;
     font-weight: bolder;
  }
+ @media screen and (max-width:768px)
+  {
+    .logo
+  {
+    font-size: 15px;
+
+  }
+}
 .navbar-link
 {
     color: green;
@@ -22,10 +41,30 @@
     font-weight:600;
     
 }
+@media screen and (max-width:768px)
+{
+    .navbar-link
+{
+  font-size: 10px;
+  justify-content: left;
+  padding: 10px ;
+
+}
+}
 
 .seachbar-container
 {
     position: relative;
+}
+@media screen and (max-width:768px)
+{
+    .textbox
+{
+    right: 10px;
+    top: -40px;
+    width: 50px;
+
+}
 }
 .textbox
 {
@@ -40,6 +79,14 @@
     top: -35px;
     height: 25px;
  }
+ @media screen and (max-width:768px)
+{
+    .search-icon
+{
+    display: none;
+
+}
+}
 
 
  
