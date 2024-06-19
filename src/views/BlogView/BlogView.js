@@ -28,7 +28,7 @@ function BlogView ()
             <p className="blog-date-author">
                 {select.author.name} | {select.date}
             </p>
-            <p >
+            <p  className="blog-content">
                 {select.content}
             </p>
           

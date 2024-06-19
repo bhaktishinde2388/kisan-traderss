@@ -34,3 +34,14 @@
     align-items: center;
    
 }
+@media screen and (max-width:768px)
+  {
+    .store-img
+  {
+
+
+width: 100%;
+margin: 15px;
+    
+  }
+}

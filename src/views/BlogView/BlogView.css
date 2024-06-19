@@ -9,7 +9,16 @@
     border-radius: 20px;
     box-shadow: 0 0 5px 2px #10f975be;
 }
-
+@media screen and (max-width:768px)
+{
+    .blogs-container
+{
+    height: 800px;
+    margin: 20px;
+    padding: 40px;
+    justify-content: center;
+}
+}
 .blogs-container:hover{
     transform: scale(1.020);
     box-shadow: 0 0 5px 2px #f96910be;
@@ -22,4 +31,22 @@
     margin: 5px;
     margin-bottom: 40px;
     font-size: 30px;
+}
+@media screen and (max-width:768px)
+{
+    .blog-date-author
+{
+    margin: 5px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width:768px)
+{
+    .blog-content
+{
+    
+    font-size: 16px;
+}
 }

@@ -9,16 +9,25 @@
   {
     .contact-container
   {
-    display: flex;
+    display: block;
     flex-direction: column;
-    margin-bottom: 1000px;
+    margin-bottom: 300px;
+
     
   }
 }
+@media screen and (max-width:768px)
+  {
+    .map
+  {
+ height: 300px;
+ position: absolute;
+ left: -122px;
+ top:400px;
+ width: 350px;
 
-.text-box
-{
-  
+    
+  }
 }
 .contact-backgrounf-img
 {
@@ -29,6 +38,17 @@
    
    
 
+}
+@media screen and (max-width:768px)
+{
+   
+  .contact-backgrounf-img
+{
+    
+  width: 100%;
+  height: 450px;
+  padding: 20px;
+}
 }
 .c-btn
 {
@@ -48,6 +68,16 @@
     top: 40px;   
     width: 40px;
    text-align: center;
+}
+@media screen and (max-width:768px)
+{
+  .info
+{
+  left:  50px;
+  top: 40px; 
+  font-size: 20px;
+  width: 100px;
+}
 }
 .main-heading
 {
@@ -73,4 +103,16 @@
    margin: 20px;
    margin-left: 90PX;
    padding: 20px;
+}
+@media screen and (max-width:768px)
+{
+  .heading
+{
+    
+  right: -12px;
+  bottom:  40px;
+  font-size: 15px;
+
+
+}
 }
